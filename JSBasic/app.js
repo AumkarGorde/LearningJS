@@ -31,20 +31,29 @@ var newsFeed = [
 var userName = prompt("Add userName");
 var password = prompt("Add password");
 
-function signIn(user, pass){
-    for (i =0; i < dataBase.length; i++){
-        if(dataBase[i].userName === user 
-            && dataBase[i].password === pass){
-                return true;
-            }
-        else{
-            return false;
-        }
+//return value of foreach is : undefined
+var signIn = false;
+dataBase.forEach( function(user){
+    if (user.userName === userName && user.password === password) {
+        signIn = true;
     }
-}
+})
+
+
+// function signIn(user, pass){
+//     for (i =0; i < dataBase.length; i++){
+//         if(dataBase[i].userName === user 
+//             && dataBase[i].password === pass){
+//                 return true;
+//             }
+//         else{
+//             return false;
+//         }
+//     }
+// }
 
 function showFeed(userName,password){
-    if(signIn(userName,password)){
+    if(signIn){
         console.log(newsFeed);
     }
     else{
