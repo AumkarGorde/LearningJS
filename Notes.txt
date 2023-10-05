@@ -1,0 +1,29 @@
+In Visual Studio Code (VS Code), you can quickly create an HTML template using the built-in Emmet abbreviations. 
+Here's a common shortcut to generate a basic HTML template:
+
+Open VS Code.
+In an HTML file or an empty text document, type html:5.
+Press the Tab key.
+
+================================================================================================================================
+In HTML, when you include a `<script>` tag with the `defer` attribute like this:
+
+<script src="app.js" defer></script>
+
+The `defer` attribute tells the browser to load and parse the external JavaScript file (`app.js` in this case) but to defer 
+its execution until after the HTML content has been fully parsed and displayed.
+
+Here's what happens when you use `defer`:
+
+1. The browser starts downloading `app.js` immediately when it encounters the `<script>` tag but continues parsing the HTML.
+
+2. Once the HTML parsing is complete and the DOM (Document Object Model) is built, the browser will execute the deferred script. 
+   This ensures that the JavaScript code in `app.js` doesn't block the rendering of the HTML.
+
+3. Deferred scripts are executed in the order they appear in the HTML document, so if you have multiple scripts with the `defer` attribute, 
+   they will be executed in the order they are encountered.
+
+Using `defer` is a good practice when you want to include JavaScript at the end of your HTML document but still want to make sure it's executed after the HTML structure is ready. 
+This can lead to faster initial page rendering and better user experience.
+
+==================================================================================================================================
