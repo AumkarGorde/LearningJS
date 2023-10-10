@@ -41,7 +41,7 @@ function demovar(){
 }
 
 function demolet(){
-    console.log(`Variable is declared after this call, now the value of variable is : ${a}. This explains point 2`); // this line gives error
+    //console.log(`Variable is declared after this call, now the value of variable is : ${a}. This explains point 2`); // this line gives error
     let a = 10;
     console.log(`Variable is declared before this call, now the value of variable is : ${a} This explains point 2`);
     const numberInput = document.getElementById('numberforlet');

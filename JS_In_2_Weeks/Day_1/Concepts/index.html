@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 1 : Intermediate JavaScript Concepts</title>
+    <script src="app.js" defer></script>
+</head>
+<body>
+<h2>Intermediate JavaScript Concepts</h2>
+<div>
+    <h3>Closures</h3>
+        <p>Closures are function inside a function and it makes a normal function statefull</p>
+        <p>Closures are usefull to create a self contain code/function that leads to a self contain state and it avoids global variables</p>
+        <i>Example : Counter</i>
+        <br>
+        <label for="counter">Click to increment the counters </label><br>
+        <button id="counterZero" onclick="callCounter()">Start from 0</button>
+        <br><p id="displayForZero"></p>
+        <button id="counter" onclick="callCounterTwo()">Start from 100</button>
+        <br><p id="displayFor100"></p><br>
+        <i>Closures with parameters</i><br>
+        <label for="greet">Enter your name</label><br>
+        <input id="greet">
+        <button onclick="greeting()">Greet</button><br>
+        <br><p id="displayForgreet"></p><br>
+        <button onclick="Nested()">Closure Nested</button><br>
+</div>
+
+</body>
+</html>

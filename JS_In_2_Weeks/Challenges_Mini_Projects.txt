@@ -1,0 +1,143 @@
+### Week 1: Days 1-7
+
+**Day 1: Intermediate JavaScript Concepts**
+- Mini Project 1: Create a simple interactive quiz game where users answer questions, and you keep track of their score.
+- Mini Project 2: Build a basic blog page that displays posts with titles and content. Use closures to manage post data.
+
+- Coding Challenge 1: Write a function that finds the sum of all even numbers in an array.
+- Coding Challenge 2: Implement a function that calculates the factorial of a given number.
+- Coding Challenge 3: Create a function that checks if a string is a palindrome.
+- Coding Challenge 4: Write a function that reverses a linked list.
+- Coding Challenge 5: Implement a function that sorts an array of objects by a specific property.
+
+**Day 2: ES6 Features**
+- Mini Project 1: Develop a simple image carousel that uses arrow functions for navigation.
+- Mini Project 2: Create a currency converter that displays exchange rates using template literals.
+
+- Coding Challenge 1: Convert a regular function to an arrow function.
+- Coding Challenge 2: Use destructuring to extract values from an object or array.
+- Coding Challenge 3: Implement a function that checks if a string includes a specific substring.
+- Coding Challenge 4: Write a function that flattens a nested array.
+- Coding Challenge 5: Use `let` and `const` to refactor a piece of code that uses `var`.
+
+**Day 3: Asynchronous JavaScript (Part 1)**
+- Mini Project 1: Build a countdown timer that uses `setTimeout` for its functionality.
+- Mini Project 2: Create a simple async messaging app that simulates chat messages with callbacks.
+
+- Coding Challenge 1: Write a function that fetches data from an API using `fetch`.
+- Coding Challenge 2: Implement a function that delays execution using `setTimeout`.
+- Coding Challenge 3: Develop a function that asynchronously reads a file and returns its contents.
+- Coding Challenge 4: Create a function that generates random numbers with a delay.
+- Coding Challenge 5: Build a promise-based function for simulating user login.
+
+**Day 4: Asynchronous JavaScript (Part 2)**
+- Mini Project 1: Create a promise-based to-do list app where users can add and complete tasks.
+- Mini Project 2: Build a simple blog application that loads posts from an API using `async/await`.
+
+- Coding Challenge 1: Refactor a callback-based code to use Promises.
+- Coding Challenge 2: Implement a function that retries a promise until it resolves.
+- Coding Challenge 3: Create a promise-based function for making HTTP POST requests.
+- Coding Challenge 4: Use `Promise.all` to fetch data from multiple APIs concurrently.
+- Coding Challenge 5: Build a promise-based image preloader for a website.
+
+**Day 5: DOM Manipulation**
+- Mini Project 1: Develop a dynamic to-do list that allows users to add, remove, and edit tasks.
+- Mini Project 2: Build a simple image gallery with navigation and a modal for enlarged images.
+
+- Coding Challenge 1: Create a function that toggles the visibility of an HTML element.
+- Coding Challenge 2: Implement a function that dynamically adds elements to the DOM.
+- Coding Challenge 3: Build a responsive navigation menu that opens and closes on click.
+- Coding Challenge 4: Develop a function that changes the style of an element on mouse hover.
+- Coding Challenge 5: Write a script that validates a form's input fields.
+
+**Day 6: Event Handling**
+- Mini Project 1: Create a basic calculator that responds to user button clicks.
+- Mini Project 2: Build a simple drawing app that allows users to draw on a canvas using mouse events.
+
+- Coding Challenge 1: Implement a click event listener that toggles a class on an element.
+- Coding Challenge 2: Create a function that prevents the default behavior of a form submission.
+- Coding Challenge 3: Build an image carousel that advances to the next image on button click.
+- Coding Challenge 4: Develop a script that responds to keyboard events (e.g., arrow keys).
+- Coding Challenge 5: Create a hover effect for a set of images that enlarges them on mouseover.
+
+**Day 7: Error Handling and Debugging**
+- Mini Project 1: Add error handling to a previous project (e.g., the to-do list) to handle unexpected user inputs.
+- Mini Project 2: Debug and fix a broken webpage by identifying and resolving JavaScript errors.
+
+- Coding Challenge 1: Implement a custom error class and use it in your code.
+- Coding Challenge 2: Create a function that logs errors to the console along with timestamps.
+- Coding Challenge 3: Debug a piece of code that contains logical errors and fix them.
+- Coding Challenge 4: Add validation to a form that checks user input for specific conditions and displays error messages.
+- Coding Challenge 5: Build a debugging tool that logs variable values and execution flow during program execution.
+
+### Week 2: Days 8-14
+
+**Day 8: Object-Oriented Programming (OOP)**
+- Mini Project 1: Create a simple online store with products represented as classes and methods for adding items to a cart.
+- Mini Project 2: Build a basic game using OOP principles, with classes for players, enemies, and game logic.
+
+- Coding Challenge 1: Implement a class for a geometric shape (e.g., a circle or rectangle) with methods for calculating area and perimeter.
+- Coding Challenge 2: Create a constructor function or class for a basic task manager that allows adding, updating, and deleting tasks.
+- Coding Challenge 3: Build a prototype chain with parent and child classes representing animals (e.g., mammals and birds).
+- Coding Challenge 4: Develop a class that represents a bank account with methods for deposits and withdrawals.
+- Coding Challenge 5: Implement a simple library system with classes for books, patrons, and borrowing books.
+
+**Day 9: Working with APIs**
+- Mini Project 1: Create a weather dashboard that fetches and displays weather data from a weather API for multiple locations.
+- Mini Project 2: Build a currency exchange rate calculator that retrieves the latest rates from a currency exchange API.
+
+- Coding Challenge 1: Fetch data from a public API of your choice and display it in a user-friendly format.
+- Coding Challenge 2: Implement a function that makes multiple API requests in parallel and combines the results.
+- Coding Challenge 3: Create a weather app that uses geolocation to fetch weather data for the user's current location.
+- Coding Challenge 4: Build a cryptocurrency tracker that displays real-time prices and data from a crypto API.
+- Coding Challenge 5: Develop a news aggregator that fetches and displays news articles from a news API.
+
+**Day 10: JavaScript Modules**
+- Mini Project 1: Refactor a previous project (e.g., the online store) into modular code using CommonJS or ES6 modules.
+- Mini Project 2: Create a dynamic form validation library that can be imported as a module into different projects.
+
+- Coding Challenge 1: Build a module that encapsulates a utility for generating random numbers.
+- Coding Challenge 2: Create a module that handles date and time-related functions.
+- Coding Challenge 3: Develop a module for working with strings, including methods for formatting and manipulation.
+- Coding Challenge 4: Build a module for handling HTTP requests and responses.
+- Coding Challenge 5: Create a module for managing user authentication and authorization.
+
+**Day 11: JavaScript Frameworks and Libraries**
+- Mini Project 1: Create a simple single-page application (SPA) using a JavaScript framework of your choice (e.g., React or Vue.js).
+- Mini Project 2: Build a photo gallery using a UI library like Material-UI or Bootstrap.
+
+- Coding Challenge 1: Explore a specific feature or component of your chosen framework/library and create a small project using it.
+- Coding Challenge 2: Integrate a third-party library or plugin into your project to enhance its functionality (e.g., a charting library).
+- Coding Challenge 3: Customize the appearance and styling of a framework-based project to match a specific design or theme.
+- Coding Challenge 4: Implement a routing system in your SPA using the framework's routing capabilities.
+- Coding Challenge 5: Create a form validation component or module using framework-specific features.
+
+**Day 12: Advanced JavaScript Concepts (Part 1)**
+- Mini Project 1: Develop a functional programming utility library that includes functions for map, filter, and reduce.
+- Mini Project 2: Build a simple web application that uses higher-order functions for data processing.
+
+- Coding Challenge 1: Write a function that demonstrates the concept of currying.
+- Coding Challenge 2: Implement a memoization cache for a computationally expensive function.
+- Coding Challenge 3: Create a closure-based counter that cannot be modified externally.
+- Coding Challenge 4: Build a higher-order function that transforms an array of objects into a new format.
+- Coding Challenge 5: Implement a functional programming pipeline using map, filter, and reduce to process data.
+
+**Day 13: Advanced JavaScript Concepts (Part 2)**
+- Mini Project 1: Create a custom JavaScript library that provides monadic functionality for working with asynchronous operations.
+- Mini Project 2: Build a real-time chat application that uses monads for error handling and data processing.
+
+- Coding Challenge 1: Explore the concept of monads in functional programming and apply it to a specific problem.
+- Coding Challenge 2: Implement a memoization technique that utilizes monads for caching.
+- Coding Challenge 3: Develop a functional programming utility for composing functions and executing them in a specific order.
+- Coding Challenge 4: Create a custom promise-like object with monadic behavior.
+- Coding Challenge 5: Build a functional programming tool that generates custom HTML templates for a web application.
+
+**Day 14: Final Projects and Practice**
+- Mini Project 1: Work on a larger-scale project of your choice, applying advanced JavaScript concepts, modules, and API integration.
+- Mini Project 2: Build a coding challenge platform where users can solve problems and see immediate feedback on their solutions.
+
+- Coding Challenge 1: Solve a series of algorithmic challenges related to the topics you've covered in Week 2.
+- Coding Challenge 2: Create a data visualization project using a charting library and real-world data.
+- Coding Challenge 3: Develop a mini-game (e.g., a quiz or a simple platformer) using OOP principles.
+- Coding Challenge 4: Build a custom reusable component or widget (e.g., a calendar or a date picker) using your chosen framework/library.
+- Coding Challenge 5: Explore a new JavaScript concept or technology that interests you, and create a project or example to showcase your understanding.
