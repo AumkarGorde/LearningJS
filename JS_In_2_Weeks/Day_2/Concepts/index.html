@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 2: ES6 Features</title>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <Div>
+        <h1>Arrow Functions</h1>
+        <p>"Arrow functions are a feature in JavaScript that provide a more concise way to define functions."</p>
+        <em>Topics covered</em>
+        <ul>
+            <li>Basic Syntax</li>
+            <li>Implicit Return</li>
+            <li>Benefits of Arrow Functions</li>
+            <ul>
+                <li>Shorter Code</li>
+                <li>Lexical this</li>
+                <li>No Binding of arguments</li>
+            </ul>
+            <li>Use Case</li>
+            <ul>
+                <li>Array Methods</li>
+                <li>Event Handlers</li>
+                <li>Callbacks</li>
+            </ul>
+        </ul>
+        <em>Limitations </em>
+        <p>Not suitable for methods with their own 'this' context:</p>
+    </Div>
+    <div>
+        <em>Arrow functions capture the 'this' value from their lexical (surrounding) context when they are created, not when they are executed.</em>
+        <br>
+        <em>Arrow functions are particularly useful when you want to capture the this value from their surrounding context. This is beneficial when working with functions inside object methods or when you need to maintain a consistent this context within a closure.</em>
+        <br><br>
+        <b>'this' refers to the current object or context.</b><br>
+            1. In regular functions, this can change depending on how the function is called.<br>
+            2. Arrow functions capture the this from the surrounding context, making it predictable and useful for maintaining the same context.<br>
+            So, when writing JavaScript code, you need to consider how this is used and whether you want it to stay the same or adapt to different contexts. Arrow functions are a handy way to ensure this behaves consistently within a particular scop
+    </div>
+    <br>
+    <div>
+        <b>Destructuring Objects</b><br>
+        <em>Destructuring is a feature in JavaScript that allows you to extract values from objects and arrays and assign them to variables in a more concise and readable way. </em> <br>
+        <em>It simplifies working with objects and arrays by reducing the need for manual property or element access and assignment. </em><br>
+        <em>Destructuring can be used with objects and arrays, and it greatly improves code clarity and maintainability.</em><br>
+        <ul>
+            <li>Object Property Assignment</li>
+            <li>Default Values</li>
+            <li>Renaming Variables</li>
+        </ul>
+        <br>
+        <b>Destructuring Arrays</b>
+        <ul>
+            <li>Array Element Assignment</li>
+            <li>Skipping Elements</li>
+            <li>Rest Elements</li>
+        </ul>
+    </div>
+</body>
+</html>
